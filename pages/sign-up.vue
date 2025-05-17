@@ -61,19 +61,6 @@
               />
             </LabelWithError>
 
-            <LabelWithError
-              :error="
-                $form.referral_code?.error?.message ||
-                responseErrors.referral_code?.[0]
-              "
-              :show-error="
-                $form.referral_code?.invalid || !!responseErrors.referral_code
-              "
-              label="Referral code"
-            >
-              <InputText autocomplete="off" fluid name="referral_code" />
-            </LabelWithError>
-
             <div>
               <label class="flex items-center gap-3 text-sm/6 text-contrast">
                 <Checkbox binary name="consent" />
@@ -127,7 +114,6 @@ const initialValues = ref<IRegisterBody>({
   name: "",
   email: "",
   password: "",
-  referral_code: "",
   consent: false,
 });
 const resolver = ref(
@@ -136,7 +122,6 @@ const resolver = ref(
       name: z.string().nonempty({ message: "Username is required" }),
       email: z.string().nonempty({ message: "Email is required" }).email(),
       password: z.string().min(8),
-      referral_code: z.string().optional(),
       consent: z.literal(true, {
         errorMap: () => {
           return { message: "You must agree to the terms" };

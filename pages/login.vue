@@ -55,15 +55,6 @@
                 <Checkbox binary name="remember" />
                 Remember me
               </label>
-
-              <div class="text-sm/6">
-                <NuxtLink
-                  class="font-semibold text-primary-600 hover:text-primary-500 dark:text-primary-400 dark:hover:text-primary-300"
-                  to="#"
-                >
-                  Forgot password?
-                </NuxtLink>
-              </div>
             </div>
 
             <Button fluid type="submit">Sign in</Button>

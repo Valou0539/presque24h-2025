@@ -7,7 +7,7 @@
   >
     <UserCircleIcon class="size-7" />
   </button>
-  <Menu id="overlay_menu" ref="menu" :model="items" :popup="true">
+  <Menu id="overlay_menu" class="bg-bg" ref="menu" :model="items" :popup="true">
     <template
       #item="{ item, props }: { item: MenuItem; props: MenuRouterBindProps }"
     >
@@ -39,7 +39,7 @@ import { useAuthStore } from "~/store/authStore";
 
 const menu = useTemplateRef("menu");
 const items: MenuItem[] = [
-  { label: "Profile", icon: "pi pi-user", to: "#" },
+  { label: useAuthStore().user?.name || "", icon: "pi pi-user" },
   {
     label: "Logout",
     icon: "pi pi-sign-out",

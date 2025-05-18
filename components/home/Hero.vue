@@ -75,9 +75,15 @@
               jeux de rôle et les meilleurs joueurs.
             </p>
             <div class="mt-10 flex items-center gap-x-6">
-              <Button severity="primary" href="#">Se connecter</Button>
-              <a href="#" class="text-text text-sm/6 font-semibold"
-                >Live demo <span aria-hidden="true">→</span></a
+              <ClientOnly>
+                <Button v-if="!authStore.token" severity="primary" href="/login">Se connecter</Button>
+
+                <Button v-else severity="primary" href="/chasses">Mes chasses</Button>
+              </ClientOnly>
+              <NuxtLink
+                href="/missings"
+                class="text-text text-sm/6 font-semibold"
+                >Les disparus<span aria-hidden="true">→</span></NuxtLink
               >
             </div>
           </div>
@@ -150,3 +156,9 @@
     </div>
   </section>
 </template>
+
+<script lang="ts" setup>
+import { useAuthStore } from "~/store/authStore";
+
+const authStore = useAuthStore();
+</script>

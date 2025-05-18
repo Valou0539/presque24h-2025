@@ -76,9 +76,13 @@
             </p>
             <div class="mt-10 flex items-center gap-x-6">
               <ClientOnly>
-                <Button v-if="!authStore.token" severity="primary" href="/login">Se connecter</Button>
+                <Button v-if="!authStore.token" severity="primary" href="/login"
+                  >Se connecter</Button
+                >
 
-                <Button v-else severity="primary" href="/chasses">Mes chasses</Button>
+                <Button v-else severity="primary" href="/chasses"
+                  >Mes chasses</Button
+                >
               </ClientOnly>
               <NuxtLink
                 href="/missings"

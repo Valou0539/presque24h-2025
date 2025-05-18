@@ -19,6 +19,9 @@
     <div
       class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-gray-900/10 ring-inset"
     />
+    <!-- golden hallow at the top left
+    -->
+    <div v-if="prime" class="absolute -top-24 -left-24 size-[180%] bg-radial to-amber-400/40 from-transparent" />
 
     <h3 class="mt-3 text-lg/6 font-semibold text-white">
       {{ monster.name }}
@@ -37,7 +40,7 @@
 <script lang="ts" setup>
 import type { Monster } from "~/types/monster";
 
-defineProps<{ monster: Monster }>();
+defineProps<{ monster: Monster, prime?: boolean }>();
 
 const showDescription = ref(false);
 </script>

@@ -126,10 +126,10 @@
 
     <section v-else class="py-12 text-center">
       <ExclamationCircleIcon class="mx-auto mb-4 h-16 w-16 text-red-500" />
-      <h2 class="text-2xl font-bold text-gray-900">
+      <h2 class="text-2xl font-bold text-contrast">
         Personne disparue non trouvée
       </h2>
-      <p class="mt-2 text-gray-600">
+      <p class="mt-2 mb-8 text-gray">
         L'identifiant spécifié n'existe pas dans notre base de données.
       </p>
       <Button :as="NuxtLink" to="/missings" severity="secondary">

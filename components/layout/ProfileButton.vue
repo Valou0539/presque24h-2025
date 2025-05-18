@@ -60,4 +60,24 @@ onMounted(() => {
     },
   ];
 });
+
+watch(
+  () => useAuthStore().user,
+  () => {
+    items.value = [
+      {
+        label: `${useAuthStore().user?.prenom} ${useAuthStore().user?.name}`,
+        icon: "pi pi-user",
+      },
+      {
+        separator: true,
+      },
+      {
+        label: "Logout",
+        icon: "pi pi-sign-out",
+        command: useAuthStore().logout,
+      },
+    ];
+  },
+);
 </script>

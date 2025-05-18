@@ -19,13 +19,17 @@
         </NuxtLink>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <NuxtLink
-          v-for="item in navigation"
-          :key="item.name"
-          :to="item.to"
-          class="text-sm/6 font-semibold text-contrast"
-          >{{ item.name }}
-        </NuxtLink>
+        <ClientOnly>
+          <NuxtLink
+            v-for="item in navigation"
+            :key="item.name"
+            :to="item.to"
+            class="text-sm/6 font-semibold text-contrast"
+            :class="{ hidden: item.needConnection && !authStore.token }"
+          >
+            {{ item.name }}
+          </NuxtLink>
+        </ClientOnly>
       </div>
       <div class="flex flex-1 items-center justify-end gap-x-4">
         <LayoutColorTheme />
@@ -58,13 +62,19 @@
       </template>
       <div class="divide-y divide-low-contrast">
         <div class="space-y-2 pb-6">
-          <NuxtLink
-            v-for="item in navigation"
-            :key="item.name"
-            :to="item.to"
-            class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-contrast hover:bg-low-contrast"
-            >{{ item.name }}
-          </NuxtLink>
+          <ClientOnly>
+            <NuxtLink
+              v-for="item in navigation"
+              :key="item.name"
+              :to="item.to"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-contrast hover:bg-low-contrast"
+              :class="{
+                hidden: item.needConnection && !authStore.token,
+              }"
+            >
+              {{ item.name }}
+            </NuxtLink>
+          </ClientOnly>
         </div>
       </div>
     </Drawer>
@@ -79,15 +89,13 @@ import { useAuthStore } from "~/store/authStore";
 const config = useRuntimeConfig();
 
 const navigation = [
-  { name: "Monstres", to: "/monsters" },
-  { name: "Disparus", to: "/missings" },
+  { name: "Monstres", to: "/monsters", needConnection: false },
+  { name: "Disparus", to: "/missings", needConnection: false },
+  { name: "Chasses", to: "/chasses", needConnection: true },
+  { name: "Primes", to: "/primes", needConnection: true },
 ];
 
 const authStore = useAuthStore();
-
-if (authStore.token) {
-  navigation.push({ name: "Profil", to: "/profile" });
-}
 
 const mobileMenuOpen = ref(false);
 const showBackground = ref(false);

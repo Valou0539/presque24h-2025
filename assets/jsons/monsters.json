@@ -1,65 +1,78 @@
 [
   {
+    "id": "baba-yaga",
     "name": "Baba Yaga",
     "description": "Une sorcière du folklore slave qui vit dans une cabane montée sur des pattes de poulet. Elle est connue pour enlever et manger les enfants qui s'aventurent dans la forêt.",
     "image": "/images/monsters/babayaga.png"
   },
   {
+    "id": "banshee",
     "name": "Banshee",
     "description": "Un esprit féminin de la mythologie irlandaise dont les cris stridents annoncent la mort imminente d'un membre de la famille.",
     "image": "/images/monsters/banshee.png"
   },
   {
+    "id": "basilic",
     "name": "Basilic",
     "description": "Une créature reptilienne légendaire qui peut tuer d'un simple regard. Son souffle est toxique et il peut pétrifier ses victimes.",
     "image": "/images/monsters/basilic.png"
   },
   {
+    "id": "corbeau",
     "name": "Corbeau",
     "description": "Oiseau souvent associé à la mort et au malheur. Dans de nombreuses cultures, il est considéré comme un messager entre le monde des vivants et celui des morts.",
     "image": "/images/monsters/corbeau.png"
   },
   {
+    "id": "demon",
     "name": "Démon",
     "description": "Entité maléfique surnaturelle qui cherche à corrompre et tourmenter les âmes des mortels. Les démons possèdent souvent des pouvoirs destructeurs.",
     "image": "/images/monsters/demon.png"
   },
   {
+    "id": "draugr",
     "name": "Draugr",
     "description": "Un mort-vivant de la mythologie nordique, gardien de tombeaux qui attaque ceux qui osent perturber son repos ou voler ses trésors.",
     "image": "/images/monsters/draugr.png"
   },
   {
+    "id": "esprit-de-la-foret",
     "name": "Esprit de la Forêt",
     "description": "Entité mystique qui protège la nature. Peut se montrer bienveillant envers ceux qui respectent la forêt, mais impitoyable envers ceux qui la détruisent.",
     "image": "/images/monsters/espritforet.png"
   },
   {
+    "id": "goblin",
     "name": "Goblin",
     "description": "Petite créature malicieuse et avide, souvent représentée comme un voleur rusé qui adore l'or et les objets brillants.",
     "image": "/images/monsters/goblin.png"
   },
   {
+    "id": "gremlin",
     "name": "Gremlin",
     "description": "Petite créature malfaisante qui prend plaisir à saboter la technologie et les machines. Connu pour causer des pannes inexplicables.",
     "image": "/images/monsters/gremlin.png"
   },
   {
+    "id": "leshi",
     "name": "Leshi",
     "description": "Esprit protecteur de la forêt dans la mythologie slave. Il peut changer de taille et d'apparence, et égare souvent les voyageurs dans les bois.",
     "image": "/images/monsters/leshi.png"
   },
   {
+    "id": "loup",
     "name": "Loup",
     "description": "Prédateur sauvage souvent représenté comme une menace dans les contes populaires. Symbole de danger et de férocité dans de nombreuses cultures.",
     "image": "/images/monsters/loup.png"
   },
   {
+    "id": "loupgarou",
     "name": "Loup-garou",
     "description": "Humain maudit qui se transforme en loup lors des nuits de pleine lune. Sous sa forme bestiale, il perd tout contrôle et devient une créature sanguinaire.",
     "image": "/images/monsters/loupgarou.png"
   },
   {
+    "id": "vampire",
     "name": "Vampire",
     "description": "Mort-vivant qui se nourrit du sang des vivants pour maintenir son existence immortelle. Il craint la lumière du jour et possède souvent des pouvoirs hypnotiques.",
     "image": "/images/monsters/vampire.png"

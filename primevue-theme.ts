@@ -468,7 +468,7 @@ export const PrimeVuePreset = definePreset(Aura, {
           hoverMutedColor: "{surface.600}",
         },
         content: {
-          background: "var(--color-background)",
+          background: "var(--color-bg)",
           hoverBackground: "{surface.100}",
           borderColor: "{surface.200}",
           color: "{text.color}",
@@ -476,17 +476,17 @@ export const PrimeVuePreset = definePreset(Aura, {
         },
         overlay: {
           select: {
-            background: "var(--color-background)",
+            background: "var(--color-bg)",
             borderColor: "{surface.200}",
             color: "{text.color}",
           },
           popover: {
-            background: "var(--color-background)",
+            background: "var(--color-bg)",
             borderColor: "{surface.200}",
             color: "{text.color}",
           },
           modal: {
-            background: "var(--color-background)",
+            background: "var(--color-bg)",
             borderColor: "{surface.200}",
             color: "{text.color}",
           },
@@ -506,7 +506,7 @@ export const PrimeVuePreset = definePreset(Aura, {
             },
           },
           optionGroup: {
-            background: "transparent",
+            background: "var(--color-bg)",
             color: "{text.muted.color}",
           },
         },
@@ -524,7 +524,7 @@ export const PrimeVuePreset = definePreset(Aura, {
             },
           },
           submenuLabel: {
-            background: "transparent",
+            background: "var(--color-bg)",
             color: "{text.muted.color}",
           },
           submenuIcon: {
@@ -593,7 +593,7 @@ export const PrimeVuePreset = definePreset(Aura, {
           hoverMutedColor: "{surface.300}",
         },
         content: {
-          background: "var(--color-background)",
+          background: "var(--color-bg)",
           hoverBackground: "{surface.800}",
           borderColor: "{surface.700}",
           color: "{text.color}",
@@ -601,17 +601,17 @@ export const PrimeVuePreset = definePreset(Aura, {
         },
         overlay: {
           select: {
-            background: "var(--color-background)",
+            background: "var(--color-bg)",
             borderColor: "{surface.700}",
             color: "{text.color}",
           },
           popover: {
-            background: "var(--color-background)",
+            background: "var(--color-bg)",
             borderColor: "{surface.700}",
             color: "{text.color}",
           },
           modal: {
-            background: "var(--color-background)",
+            background: "var(--color-bg)",
             borderColor: "{surface.700}",
             color: "{text.color}",
           },
@@ -631,7 +631,7 @@ export const PrimeVuePreset = definePreset(Aura, {
             },
           },
           optionGroup: {
-            background: "transparent",
+            background: "var(--color-bg)",
             color: "{text.muted.color}",
           },
         },
@@ -649,7 +649,7 @@ export const PrimeVuePreset = definePreset(Aura, {
             },
           },
           submenuLabel: {
-            background: "transparent",
+            background: "var(--color-bg)",
             color: "{text.muted.color}",
           },
           submenuIcon: {

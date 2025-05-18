@@ -5,18 +5,8 @@
         <h2
           class="mt-24 text-2xl/9 font-bold tracking-tight text-contrast lg:mt-32"
         >
-          Sign in to your account
+          Se connecter
         </h2>
-        <p class="mt-2 text-sm/6 text-gray">
-          Not a member?
-          {{ " " }}
-          <NuxtLink
-            class="font-semibold text-primary-600 hover:text-primary-500 dark:text-primary-400 dark:hover:text-primary-300"
-            to="/sign-up"
-          >
-            Sign up now
-          </NuxtLink>
-        </p>
       </div>
 
       <div class="mt-10">
@@ -31,7 +21,7 @@
             <LabelWithError
               :error="$form.identifier?.error?.message"
               :show-error="$form.identifier?.invalid"
-              label="Username"
+              label="Pseudo"
             >
               <InputText autocomplete="username" fluid name="identifier" />
             </LabelWithError>
@@ -39,7 +29,7 @@
             <LabelWithError
               :error="$form.password?.error?.message || responseError"
               :show-error="$form.password?.invalid || !!responseError"
-              label="Password"
+              label="Mot de passe"
             >
               <Password
                 :feedback="false"
@@ -53,11 +43,11 @@
             <div class="flex items-center justify-between">
               <label class="flex items-center gap-3 text-sm/6 text-contrast">
                 <Checkbox binary name="remember" />
-                Remember me
+                Se souvenir de moi
               </label>
             </div>
 
-            <Button fluid type="submit">Sign in</Button>
+            <Button fluid type="submit">Se connecter</Button>
           </Form>
         </div>
       </div>

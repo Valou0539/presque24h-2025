@@ -11,5 +11,44 @@
     "dernierContact": "Transmission radio fragmentaire depuis le secteur de Ploërmel (proximité des ruines signalées en [rapport codé R-Fog/64])",
     "resume": "Alicia Vernier, jeune agent de terrain, a disparu lors d'une mission de routine de balisage des zones instables au sud-est de Brocéliande. Aucun signal de détresse formel n'a été émis, mais un message partiel capté par la station de Ploërmel mentionne une « présence multiple » et « balise HS ».\nLe corps d'Alicia a été retrouvé deux semaines plus tard, dans un état de dégradation avancée. L'identification réalisée sur les données dentaires. Le rapport d'autopsie (Dr. J.-M. Dumont) conclut à une attaque violente, probablement d'origine non humaine.",
     "annexes": "Rapports d'écoute, cartographie des mouvements, note interne E.Redmark (restreint)."
+  },
+  {
+    "id": "felicia-mcconnel",
+    "prenom": "Félicia",
+    "nom": "McConnel",
+    "dateNaissance": "1969-05-06",
+    "affectation": "Cellule de Reconnaissance - Division Ouest",
+    "rang": "Pisteuse vétéran",
+    "statut": "Décédé(e) - (rapport JM-D #213\/F)",
+    "dateDisparition": "2024-07-18",
+    "dernierContact": "Message texte envoyé depuis un relais forestier (coordonnées non cohérentes)",
+    "resume": "Félicia McConnel, pisteuse spécialisée en comportement cryptide, effectuait une mission de recherche dans la forêt de Brocéliande (secteur classé à faible risque). Son absence prolongée a déclenché une alerte deux jours plus tard.\r\nSon corps a été retrouvé cinq jours après sa disparition, non loin du secteur d'Avelek (cf. archives cartographiques R-Delta). L’identification a été confirmée par effets personnels et correspondance ADN. Le rapport du légiste (Dr. J.-M. Dumont) évoque une mort due à lacérations profondes, cohérentes avec une agression par créature de type lycanthrope.",
+    "annexes": "Copie du dernier message transmis, relevés topographiques partiels."
+  },
+  {
+    "id": "lewis-lochlainn",
+    "prenom": "Lewis",
+    "nom": "Lochlainn",
+    "dateNaissance": "1970-05-15",
+    "affectation": "Cellule de traque et de neutralisation",
+    "rang": "Traqueur vétéran",
+    "statut": "Décédé - (rapport JM-D #221\/L)",
+    "dateDisparition": "2024-08-31",
+    "dernierContact": "Transcription partielle via canal de sécurité B6, brouillée",
+    "resume": "Membre actif de la Guilde depuis 2012, Lewis Lochlainn était affecté à la traque et à la surveillance des entités de classe mineure et intermédiaire, principalement dans la zone ouest. Considéré comme fiable et méthodique, il travaillait souvent en binôme mais avait été envoyé en mission courte en autonomie suite à des disparition dans le secteur de Ploërmel.\r\nSa dernière transmission était incomplète, parasitée par un bruit statique d’origine non identifiée. L’équipe d’appui envoyée 48h plus tard a retrouvé son corps et une partie de son équipement, soigneusement rangé sous un abri naturel, sans trace de lutte.\r\nAucune signature ésotérique anormale détectée sur les bornes proches. Aucun mouvement relevé sur les balises de proximité. Dossier confié à la cellule de Cryptozoologie.",
+    "annexes": "Extraits de communication cryptée B6, rapport de fouille de la zone, témoignage du binôme habituel (C. Janvier)."
+  },
+  {
+    "id": "elias-redmark",
+    "prenom": "Elias",
+    "nom": "Redmark",
+    "dateNaissance": "1970-04-02",
+    "affectation": "Cellule d'enquête interne/externe",
+    "rang": "Enquêteur vétéran",
+    "statut": "Décédé(e) - (rapport confidentiel)",
+    "dateDisparition": "2024-10-07",
+    "dernierContact": "Note manuscrite déposée à la station secondaire de Paimpont",
+    "resume": "Membre vétéran de la Guilde, Elias Redmark a d’abord servi comme traqueur actif dans plusieurs zones sensibles (notamment le Sud-Est et le massif central) avant d’être transféré en cellule d'enquête interne/externe en 2013. Spécialisé dans les occurrences anciennes et les configurations non répertoriées, il avait acquis une solide réputation pour sa rigueur méthodologique et son instinct hors-norme.\r\n\r\nAffecté à l'affaire Brocéliande24.\r\nSes effets personnels, y compris son carnet de terrain, ont été retrouvés intacts dans la forêt. Aucune trace de lutte, pas de signalement ésotérique actif, mais l’un de ses talismans de protection avait été volontairement brisé.",
+    "annexes": "Note manuscrite (copie), rapport d’inventaire de la zone de disparition, correspondance interne classée confidentielle."
   }
 ]

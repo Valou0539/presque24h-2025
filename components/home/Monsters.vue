@@ -5,7 +5,7 @@
         <h2
           class="text-4xl font-semibold tracking-tight text-balance text-contrast sm:text-5xl"
         >
-          Monsters
+          Monstres
         </h2>
         <p class="mt-2 text-lg/8 text-gray">
           Découvrez les monstres les plus terrifiants de la mythologie.

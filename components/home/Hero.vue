@@ -76,11 +76,11 @@
             </p>
             <div class="mt-10 flex items-center gap-x-6">
               <ClientOnly>
-                <Button v-if="!authStore.token" severity="primary" href="/login"
+                <Button v-if="!authStore.token" :as="NuxtLink" severity="primary" href="/login"
                   >Se connecter</Button
                 >
 
-                <Button v-else severity="primary" href="/chasses"
+                <Button v-else :as="NuxtLink" severity="primary" href="/chasses"
                   >Mes chasses</Button
                 >
               </ClientOnly>
@@ -163,6 +163,7 @@
 
 <script lang="ts" setup>
 import { useAuthStore } from "~/store/authStore";
+import { NuxtLink } from "#components";
 
 const authStore = useAuthStore();
 </script>

@@ -50,5 +50,18 @@
     "dernierContact": "Note manuscrite déposée à la station secondaire de Paimpont",
     "resume": "Membre vétéran de la Guilde, Elias Redmark a d’abord servi comme traqueur actif dans plusieurs zones sensibles (notamment le Sud-Est et le massif central) avant d’être transféré en cellule d'enquête interne/externe en 2013. Spécialisé dans les occurrences anciennes et les configurations non répertoriées, il avait acquis une solide réputation pour sa rigueur méthodologique et son instinct hors-norme.\r\n\r\nAffecté à l'affaire Brocéliande24.\r\nSes effets personnels, y compris son carnet de terrain, ont été retrouvés intacts dans la forêt. Aucune trace de lutte, pas de signalement ésotérique actif, mais l’un de ses talismans de protection avait été volontairement brisé.",
     "annexes": "Note manuscrite (copie), rapport d’inventaire de la zone de disparition, correspondance interne classée confidentielle."
+  },
+  {
+    "id": "martin-elgarno",
+    "prenom": "Martin",
+    "nom": "Elgarno",
+    "dateNaissance": "1980-10-21",
+    "affectation": "Cellule Médicale",
+    "rang": "Médecin accrédité",
+    "statut": "Décédé(e) - (Rapport confidentiel)",
+    "dateDisparition": "2024-11-12",
+    "dernierContact": "Aucun",
+    "resume": "Médecin généraliste et légiste de formation, Martin Elgarno collabore avec la Guilde depuis 2017, d’abord en tant que consultant avant d’être pleinement accrédité. Il intervient ponctuellement lors de missions à risque pour assurer le suivi médical des agents et l’analyse post-opératoire de certains événements inexpliqués.\r\n\r\nProche d’Elias Redmark, il s’est personnellement impliqué dans la réévaluation de plusieurs cas jugés classés, notamment les autopsies d’Alicia Vernier et de Felicia McConnel. Aucun rapport transmis.\r\n\r\nSon comportement reste professionnel mais sous surveillance, notamment depuis sa décision non autorisée de se rendre en Brocéliande pour poursuivre ses investigations.",
+    "annexes": "Notes personnelles partiellement interceptées (analyse en cours), log d'accès non autorisés à la base de données légiste."
   }
 ]

@@ -9,17 +9,17 @@
 
 @theme {
     --font-sans: Poppins, sans-serif;
-    --color-primary-50: var(--color-blue-50);
-    --color-primary-100: var(--color-blue-100);
-    --color-primary-200: var(--color-blue-200);
-    --color-primary-300: var(--color-blue-300);
-    --color-primary-400: var(--color-blue-400);
-    --color-primary-500: var(--color-blue-500);
-    --color-primary-600: var(--color-blue-600);
-    --color-primary-700: var(--color-blue-700);
-    --color-primary-800: var(--color-blue-800);
-    --color-primary-900: var(--color-blue-900);
-    --color-primary-950: var(--color-blue-950);
+    --color-primary-50: var(--color-red-50);
+    --color-primary-100: var(--color-red-100);
+    --color-primary-200: var(--color-red-200);
+    --color-primary-300: var(--color-red-300);
+    --color-primary-400: var(--color-red-400);
+    --color-primary-500: var(--color-red-500);
+    --color-primary-600: var(--color-red-600);
+    --color-primary-700: var(--color-red-700);
+    --color-primary-800: var(--color-red-800);
+    --color-primary-900: var(--color-red-900);
+    --color-primary-950: var(--color-red-950);
 
     --color-surface-0: #ffffff;
     --color-surface-50: var(--color-neutral-50);
@@ -56,8 +56,6 @@
         --color-bg: var(--color-bg-dark);
         --color-contrast: var(--color-contrast-dark);
         --color-gray: var(--color-gray-dark);
-        --color-gray-light: var(--color-gray-400);
-        --color-gray-dark: var(--color-gray-500);
         --color-low-contrast: var(--color-low-contrast-dark);
     }
 }
@@ -66,8 +64,6 @@
     --color-bg: var(--color-bg-light);
     --color-contrast: var(--color-contrast-light);
     --color-gray: var(--color-gray-light);
-    --color-gray-light: var(--color-gray-500);
-    --color-gray-dark: var(--color-gray-400);
     --color-low-contrast: var(--color-low-contrast-light);
 }
 
@@ -75,8 +71,6 @@
     --color-bg: var(--color-bg-dark);
     --color-contrast: var(--color-contrast-dark);
     --color-gray: var(--color-gray-dark);
-    --color-gray-light: var(--color-gray-400);
-    --color-gray-dark: var(--color-gray-500);
     --color-low-contrast: var(--color-low-contrast-dark);
 }
 

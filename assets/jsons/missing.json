@@ -1,0 +1,15 @@
+[
+  {
+    "id": "alicia-vernier",
+    "prenom": "Alicia",
+    "nom": "Vernier",
+    "dateNaissance": "2004-01-13",
+    "affectation": "Cellule de Cryptozoologie - Division II,\r\nService Informatique - Division développement",
+    "rang": "Observatrice apprentie",
+    "statut": "Décédé(e) - (rapport JM-D #209/B)",
+    "dateDisparition": "2024-07-10",
+    "dernierContact": "Transmission radio fragmentaire depuis le secteur de Ploërmel (proximité des ruines signalées en [rapport codé R-Fog/64])",
+    "resume": "Alicia Vernier, jeune agent de terrain, a disparu lors d'une mission de routine de balisage des zones instables au sud-est de Brocéliande. Aucun signal de détresse formel n'a été émis, mais un message partiel capté par la station de Ploërmel mentionne une « présence multiple » et « balise HS ».\nLe corps d'Alicia a été retrouvé deux semaines plus tard, dans un état de dégradation avancée. L'identification réalisée sur les données dentaires. Le rapport d'autopsie (Dr. J.-M. Dumont) conclut à une attaque violente, probablement d'origine non humaine.",
+    "annexes": "Rapports d'écoute, cartographie des mouvements, note interne E.Redmark (restreint)."
+  }
+]

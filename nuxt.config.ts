@@ -46,7 +46,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      appName: "Nuxt Boilerplate",
+      appName: "La Guilde",
     },
     apiUrl: process.env.API_URL,
   },

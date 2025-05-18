@@ -1,5 +1,9 @@
 <template>
-  <main></main>
+  <main>
+    <HomeHero />
+    <HomeMap />
+    <HomeMonsters />
+  </main>
 </template>
 
 <script lang="ts" setup>

@@ -15,7 +15,7 @@
       <div class="flex lg:flex-1">
         <NuxtLink class="-m-1.5 p-1.5" href="/">
           <span class="sr-only">{{ config.public.appName }}</span>
-          <LogoIcon alt="" class="h-8 w-auto" />
+          <LogoIcon alt="" class="h-12 w-auto" />
         </NuxtLink>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
@@ -31,14 +31,9 @@
         <LayoutColorTheme />
         <ClientOnly>
           <div v-if="!authStore.token" class="flex gap-x-4">
-            <Button
-              :as="NuxtLink"
-              class="hidden lg:flex"
-              severity="secondary"
-              to="/login"
-              >Log in
+            <Button :as="NuxtLink" severity="primary" to="/login"
+              >Se connecter
             </Button>
-            <Button :as="NuxtLink" to="/sign-up">Sign up</Button>
           </div>
           <LayoutProfileButton v-else />
         </ClientOnly>
@@ -71,15 +66,6 @@
             >{{ item.name }}
           </NuxtLink>
         </div>
-        <ClientOnly>
-          <div v-if="!authStore.token" class="py-6">
-            <NuxtLink
-              class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-contrast hover:bg-low-contrast"
-              to="/login"
-              >Log in
-            </NuxtLink>
-          </div>
-        </ClientOnly>
       </div>
     </Drawer>
   </header>
@@ -93,8 +79,8 @@ import { useAuthStore } from "~/store/authStore";
 const config = useRuntimeConfig();
 
 const navigation = [
-  { name: "Link 1", to: "#" },
-  { name: "Link 2", to: "#" },
+  { name: "Monstres", to: "/monsters" },
+  { name: "Disparus", to: "/missings" },
 ];
 
 const authStore = useAuthStore();

@@ -6,7 +6,8 @@
   <Toast />
 </template>
 <script lang="ts" setup>
+const config = useRuntimeConfig();
 useHead({
-  titleTemplate: "%s - Winalia",
+  titleTemplate: `%s - ${config.public.appName}`,
 });
 </script>

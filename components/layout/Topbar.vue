@@ -85,6 +85,10 @@ const navigation = [
 
 const authStore = useAuthStore();
 
+if (authStore.token) {
+  navigation.push({ name: "Profil", to: "/profile" });
+}
+
 const mobileMenuOpen = ref(false);
 const showBackground = ref(false);
 

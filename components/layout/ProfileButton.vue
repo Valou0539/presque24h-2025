@@ -38,16 +38,26 @@ import type { MenuRouterBindProps } from "primevue";
 import { useAuthStore } from "~/store/authStore";
 
 const menu = useTemplateRef("menu");
-const items: MenuItem[] = [
-  { label: useAuthStore().user?.name || "", icon: "pi pi-user" },
-  {
-    label: "Logout",
-    icon: "pi pi-sign-out",
-    command: useAuthStore().logout,
-  },
-];
+const items = ref<MenuItem[]>([]);
 
 const toggle = (event: Event) => {
   menu.value?.toggle(event);
 };
+
+onMounted(() => {
+  items.value = [
+    {
+      label: `${useAuthStore().user?.prenom} ${useAuthStore().user?.name}`,
+      icon: "pi pi-user",
+    },
+    {
+      separator: true,
+    },
+    {
+      label: "Logout",
+      icon: "pi pi-sign-out",
+      command: useAuthStore().logout,
+    },
+  ];
+});
 </script>

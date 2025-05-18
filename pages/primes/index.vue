@@ -38,7 +38,7 @@
         >
           <MonsterCard :monster="monster" prime />
 
-          <span class="absolute top-4 left-4 text-6xl font-bold">{{
+          <span class="absolute top-4 left-4 text-6xl font-bold text-white">{{
             monster.prix
           }}</span>
 

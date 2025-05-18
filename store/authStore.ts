@@ -110,12 +110,14 @@ export const useAuthStore = defineStore(
             ? config?.onResponseError
             : [config?.onResponseError || (() => {})]),
         ],
-      }).then((response: ITokenResponse) => {
+      }).then(async (response: ITokenResponse) => {
         token.value = response.access_token;
         sessionRefreshToken.value = response.refresh_token;
         if (loginBody.remember) {
           refreshToken.value = response.refresh_token;
         }
+        const userResponse = await fetch<IUser>("/api/auth/user");
+        user.value = userResponse;
         navigateTo(redirect.value || "/");
       });
     };

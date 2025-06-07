@@ -3,7 +3,7 @@
     <h2 class="mb-8 text-4xl font-bold">Points d'intérêt</h2>
     <div class="flex flex-col items-center justify-center gap-8 md:flex-row">
       <div class="relative aspect-square w-full md:w-1/2">
-        <NuxtImg src="/images/broceliande-map.png" class="size-full" />
+        <NuxtImg src="/images/broceliande-map.png" class="size-full" alt="" />
         <span
           v-for="(point, index) in pointsOfInterest"
           @click="selectedPoint = point.id"
